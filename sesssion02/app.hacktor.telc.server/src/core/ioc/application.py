@@ -3,11 +3,8 @@
     - this package is Services initializer of IoC
 """
 
-from dependency_injector.containers import (
-    DeclarativeContainer as DI_DeclarativeContainer
-)
-from dependency_injector.providers import (
-    Callable as DI_Callable
+from . import (
+    DI_DeclarativeContainer, DI_Callable,
 )
 
 from .services import Services

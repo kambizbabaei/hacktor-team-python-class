@@ -4,14 +4,9 @@
     - this package is Services initializer of IoC
 """
 
-from dependency_injector.containers import (
-    DeclarativeContainer as DI_DeclarativeContainer
+from . import (
+    DI_DeclarativeContainer, DI_provider_factory,DI_provider_singleton
 )
-from dependency_injector.providers import (
-    Factory as DI_provider_factory,
-    Singleton as DI_provider_factory
-)
-
 
 class Services:
     """ IoC container of service providers """

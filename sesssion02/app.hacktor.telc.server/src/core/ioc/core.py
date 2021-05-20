@@ -4,11 +4,9 @@
     - this package is core of IOC for config handlers and other critical configs
 """
 
-from dependency_injector.containers import (
-    DeclarativeContainer as DI_DeclarativeContainer
-)
-from dependency_injector.providers import (
-    Singleton as DI_provider_singleton
+from .import (
+    DI_provider_singleton, DI_DeclarativeContainer
+
 )
 
 

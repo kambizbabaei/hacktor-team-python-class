@@ -4,10 +4,9 @@
     -  this package is Gateways of IoC
 """
 
-from dependency_injector.containers import (
-    DeclarativeContainer as DI_DeclarativeContainer
+from . import (
+    DI_DeclarativeContainer
 )
-
 
 class GateWays(DI_DeclarativeContainer):
     """ IoC container of gateway (API Client to remote services) providers
