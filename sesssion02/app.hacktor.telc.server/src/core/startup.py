@@ -8,7 +8,7 @@
 class StartUp:
 
     def __init__(self):
-        super(StartUp).__init__(self)
+        super(StartUp, self).__init__()
 
     def start(self):
         print ("... Application start ...")
